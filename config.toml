@@ -23,7 +23,7 @@ theme = "aerial"
 [[params.social]]
   medium = "Github"
   icon = "github"
-  link = ""
+  link = "https://github.com/yara7"
 
 [[params.social]]
   medium = "Email"
