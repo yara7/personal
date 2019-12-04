@@ -4,8 +4,8 @@ baseurl = "http://example.org/"
 theme = "aerial"
 
 [params]
-  name = "Yara  "
-  about = " for diabetes prediction project check the github yara7.github.io repository" 
+  name = "Yara Metwally "
+  about = " for  diabetes   prediction   project  check   the github  yara7.github.io   repository" 
   copyright = "Untitled"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
