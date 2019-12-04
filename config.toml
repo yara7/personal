@@ -5,7 +5,7 @@ theme = "aerial"
 
 [params]
   name = "Yara  "
-  about = "diabetes prediction" 
+  about = " for diabetes prediction project check the github yara7.github.io repository" 
   copyright = "Untitled"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
@@ -25,6 +25,6 @@ blog="diabetes prediction"
   link = "https://github.com/yara7"
 
 [[params.social]]
-  medium = "project"
-  icon = "project"
+  medium = "Email"
+  icon = "envelope-o"
   link = ""
