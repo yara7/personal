@@ -4,7 +4,7 @@ baseurl = "http://example.org/"
 theme = "aerial"
 
 [params]
-  name = "Yara  "
+  name = "Yara Metwally "
   about = "diabetes" 
   copyright = "Untitled"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
@@ -28,3 +28,4 @@ blog="diabetes prediction"
   medium = "Email"
   icon = "envelope-o"
   link = ""
+<i class="fas fa-blog"></i>
