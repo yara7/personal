@@ -18,11 +18,6 @@ blog="diabetes prediction"
   icon = "facebook"
   link = "https://www.facebook.com/yara.metwally.146"
 
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "https://www.facebook.com/yara.metwally.146"
-
 
 [[params.social]]
   medium = "Github"
@@ -33,4 +28,3 @@ blog="diabetes prediction"
   medium = "Email"
   icon = "envelope-o"
   link = ""
-<i class="fas fa-blog"></i>
