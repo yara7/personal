@@ -5,5 +5,4 @@ draft = false
 tags = ["Getting started"]
 categories = []
 +++
-
 Hello Hugo world! No more excuses for having no blog or documentation now!
