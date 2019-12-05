@@ -34,3 +34,10 @@ theme = "aerial"
   medium = "Email"
   icon = "envelope-o"
   link = "#"
+
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hugo Blog"
+
+[params]
+  homeText = "You just made a Hugo blog from scratch."
