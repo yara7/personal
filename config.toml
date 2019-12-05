@@ -1,8 +1,4 @@
 languageCode = "en-us"
 title = "Yara"
 baseurl = "http://example.org/"
-theme = "ga-hugo-theme-master"
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "#"
+theme = "github-style-master"
