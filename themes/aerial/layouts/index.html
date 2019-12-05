@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>{{ .Title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="css/main.css" />
+	<link rel="" href ="first-post.md"/>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+    {{ with .Site.Params.favicon }}
+     <link rel="shortcut icon" type="image/x-icon" href="{{ . | absURL }}">
+     <link rel="icon" type="image/x-icon" href="{{ . | absURL }}">
+    {{ end }}
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg" {{ with .Site.Params.bg_scroll}} class="no-scroll" {{end}}></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>{{ .Site.Params.name | safeHTML }}</h1>
+						<p>{{ .Site.Params.about | safeHTML }}</p>
+						<nav>
+							<ul>
+								{{ range .Site.Params.social }}
+								<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
+								{{ end }}
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; {{ .Site.Params.copyright }}. Design: <a href="http://html5up.net">HTML5 UP</a>. Powered by <a href="https://www.gohugo.io/">Hugo.</a></span>
+					</footer>
+
+			</div>
+		</div>
+		<!--[if lte IE 8]><script src="js/ie/respond.min.js"></script><![endif]-->
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+
+	{{ partial "js.html" . }}
+	<div class="header">
+		<h2>Blog Name</h2>
+	  </div>
+	  
+	  <div class="row">
+		<div class="leftcolumn">
+		  <div class="card">
+			<h2>TITLE HEADING</h2>
+			<h5>Title description, Dec 7, 2017</h5>
+			<div class="fakeimg" style="height:200px;">Image</div>
+			<p>Some text..</p>
+			<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+		  </div>
+		  <div class="card">
+			<h2>TITLE HEADING</h2>
+			<h5>Title description, Sep 2, 2017</h5>
+			<div class="fakeimg" style="height:200px;">Image</div>
+			<p>Some text..</p>
+			<p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+		  </div>
+		</div>
+		<div class="rightcolumn">
+		  <div class="card">
+			<h2>About Me</h2>
+			<div class="fakeimg" style="height:100px;">Image</div>
+			<p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+		  </div>
+		  <div class="card">
+			<h3>Popular Post</h3>
+			<div class="fakeimg">Image</div><br>
+			<div class="fakeimg">Image</div><br>
+			<div class="fakeimg">Image</div>
+		  </div>
+		  <div class="card">
+			<h3>Follow Me</h3>
+			<p>Some text..</p>
+		  </div>
+		</div>
+	  </div>
+	  
+	  <div class="footer">
+		<h2>Footer</h2>
+	  </div>
+	</body>
+</html>

@@ -1,4 +1,4 @@
 languageCode = "en-us"
 title = "Yara"
 baseurl = "http://example.org/"
-theme = "ga-hugo-theme-master"
+theme = "aerial"
