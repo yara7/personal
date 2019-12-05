@@ -1,4 +1,4 @@
 languageCode = "en-us"
 title = "Yara"
 baseurl = "http://example.org/"
-theme = "github-style-master"
+theme = "ga-hugo-theme-master"
