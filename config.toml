@@ -4,7 +4,7 @@ baseurl = "http://example.org/"
 theme = "aerial"
 [params]
   name = "Yara Metwally"
-  about = ""
+  about = "To see my blog ,please visit blog repository on  my github profile"
   copyright = "Untitled"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
@@ -21,7 +21,9 @@ theme = "aerial"
 [[params.social]]
   medium = "Github"
   icon = "github"
-  link = "#"
+  link = "https://github.com/yara7"
+
+
 
 [[params.social]]
   medium = "Email"
