@@ -18,12 +18,12 @@ theme = "aerial"
 [[params.social]]
   medium = "Facebook"
   icon = "facebook"
-  link = "#"
+  link = "https://www.facebook.com/yara.metwally.146"
 
 [[params.social]]
   medium = "Dribbble"
   icon = "dribbble"
-  link = "#"
+  link = "file:///C:/Users/PC/Desktop/diabetes/diabetes.html"
 
 [[params.social]]
   medium = "Github"
