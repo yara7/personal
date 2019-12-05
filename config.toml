@@ -10,10 +10,6 @@ theme = "aerial"
   bg_scroll = ""
   favicon = "favicon.ico"
 
-[[params.social]]
-  medium = "Twitter"
-  icon = "twitter"
-  link = "#"
 
 [[params.social]]
   medium = "Facebook"
